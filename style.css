@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    width: 1440px;
+    height: 1024px;
+    top: -404px;
+    left: -1045px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto;
+    
+}
+header {
+    display: flex;
+    height: 72px;
+    background-color: #1D3BC1;
+    width: 1440px;
+    padding: 13px 100px 13px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: none;
+}
+.left {
+    display: flex;
+height: 36px;
+gap: 56px;
+opacity: 0px;
+align-items: center;
+justify-content: center;
+
+}
+.links {
+color: white;
+padding: 0px 10px;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+text-align: left;
+
+}
+.icon-one {
+width: 60px;
+height: 36px;
+}
+.iconright {
+    width: 368px;
+    height:19px;
+    gap: 56px;
+    opacity: 0px;
+    
+}
+.right {
+width: 424px;
+height:  36px;
+gap: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.lefticons {
+ height: 26.67px;
+ width: 26.67px;
+}
+.search-input {
+width: Fixed (240px)px;
+height: Fixed (36px)px;
+padding: 9px 16px 9px 16px;
+gap: 11px;
+border-radius: 24px 24px 24px 24px;
+opacity: 0px;
+border:none;
+background-color:#202E70 ;
+}
+.background {
+width: 1440px;
+height: 555px;
+background-image: url(./assets/images/bgimg.jpg);
+background: linear-gradient(rgba(0, 0, 0, 0.164));
+background-size: cover;
+}
+
+.insection {
+position: relative;
+display: flex;
+flex-direction: column;
+height: Hug (280px)px;
+top: 175px;
+left: 100px;
+gap: 36px;
+}
+
+.digital {
+display:flex ;
+justify-content: center;
+width: 456px;
+height: 142px;
+color: white;
+font-size: 68px;
+font-weight: 900;
+line-height: 71.42px;
+text-align: left;
+
+
+}
+.sectionparagraph {
+width: 456px;
+height: 38px;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.36px;
+text-align: left;
+color: white;
+}
+.buttonpart {
+display: flex;
+height: Hug (40px)px;
+gap: 24px;
+
+}
+
+.leftbutton {
+width: Hug (128px)px;
+height: Fixed (40px)px;
+padding: 15px 16px 15px 16px;
+gap: 10px;
+border-radius: 24px;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+text-align: left;
+color: white;
+background: rgba(33, 67, 219, 1);    
+}
+.rightbutton {
+display: flex;
+justify-content: center;
+align-items: center;
+width: Hug (175px)px;
+height: Fixed (40px)px;
+padding: 0px 16px 0px 16px;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+gap: 8px;
+border-radius: 24px;
+opacity: 0px;
+background: none;
+color: white;
+border: 0.5px solid rgba(254, 254, 254, 0.75)
+}
+.secondsection {
+    padding-top: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.secondsectionicons {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: Hug (73px)px;
+height: Hug (103px)px;
+gap: 12px;
+opacity: 0px;
+}
+.icons {
+display: flex;
+width: Fixed (657px)px;
+height: Hug (103px)px;
+top: 635px;
+left: 391.5px;
+gap: 36px;
+opacity: 0px;
+
+}
+
+@media (max-width:992px) {
+.menu {
+    display: inline-block;
+    width: 20px;
+    height: 20px; }
+ .icon-one {
+display: none !important;
+}
+.iconright {
+    display: none !important;
+}
+.icon1 {
+    display: none !important;
+}
+.icon2 {
+    display: none  !important;
+
+}
+.icons {
+    width: 438px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header {
+    background-color: red;
+}
+.leftbutton {
+    background-color: red;
+}
+.search-input {
+    background-color: rgb(44, 4, 4);
+}
+.buttonpart {
+    justify-content: space-around;
+}
+}
+
+@media (max-width:768px) {
+    .icons {
+        width: 329px !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header {
+        background-color: rgb(187, 255, 0);
+    }
+    .leftbutton {
+        background-color:rgb(187, 255, 0);
+    }
+    .search-input {
+        background-color: rgb(82, 70, 5);
+    }
+    .buttonpart {
+        justify-content: flex-start;
+}
+
+@media (max-width:576px) {
+    .icons {
+        width: 110px !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header {
+        background-color:hotpink;
+    }
+    .leftbutton {
+        background-color:hotpink;
+    }
+    .search-input {
+        background-color: rgb(99, 27, 63);
+    }
+    .buttonpart {
+        justify-content: flex-start;
+}
